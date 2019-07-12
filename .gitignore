@@ -1,0 +1,17 @@
+# Ignore anything in the temp and outputs folders
+temp/*
+!temp/.keep
+
+outputs/*
+!outputs/.keep
+
+TODO
+
+# Ignore any .txt files that are used for checking output
+*.txt
+
+# Ignore object files
+*.o
+
+#Ignore the latest compiled executable
+ffs
